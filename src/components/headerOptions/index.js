@@ -1,16 +1,32 @@
-import './style.css'
+import styled from 'styled-components'
 
 const menuOptions = ['CATEGORIAS', 'MINHA ESTANTE', 'FAVORITOS']
 
+const Options = styled.ul`
+  display: flex;
+`
+
+const Option = styled.li`
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    padding: 0 5px;
+    cursor: pointer;
+    min-width: 120px;
+`
+
 function HeaderOptions() {
     return (
-        <ul className='options'>
+        <Options>
           {
             menuOptions.map( (item) => (
-              <li className='option'><p>{item}</p></li>
+              <Option><p>{item}</p></Option>
             ))
           }
-        </ul>
+        </Options>
     )
 }
 
