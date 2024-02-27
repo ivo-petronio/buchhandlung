@@ -25,21 +25,29 @@ const Subtitulo = styled.h3`
     margin-bottom: 40px;
 `
 const Resultado = styled.div`
+    position: relative;
+    left: 70%;
+    top: -40%;
+    width: 200px;
+    height: auto;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 40px;
+    background-color: #002F52;
+    transition: height .4s;
 
     img {
         width: 100px;
+        transition: .5s;
+
+        &:hover {
+            transform: scale(1.1);
+        }
     }
 
     p {
         width: 200px;
-    }
-
-    &:hover {
-        box-shadow: 0 0 10px rgba(0, 255, 0, 0.4);
     }
 `
 
@@ -53,7 +61,7 @@ function Pesquisa() {
             <Input
                 type="text"
                 placeholder="O livro que eu quero é..."
-                onBlur={(event => {
+                onInput={(event => {
                     let searchParam = event.target.value
                     let searchResult = livros.filter(livro => livro.titulo.includes(searchParam))
                     if(!event.target.value) searchResult = []
