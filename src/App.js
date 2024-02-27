@@ -1,3 +1,6 @@
+import React from 'react'
+import ReactDOM from 'react-dom'
+
 import Header from './components/header'
 import Pesquisa from './components/pesquisa'
 import Lancamentos from './components/lancamentos'
