@@ -1,3 +1,4 @@
+import React from "react";
 import perfil from '../../img/perfil.svg'
 import bag from '../../img/sacola.svg'
 import styled from 'styled-components'
