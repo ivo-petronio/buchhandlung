@@ -35,7 +35,7 @@ const Resultado = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #002F52;
+    background-color: #77777755;
     transition: height .4s;
 
     img {
@@ -63,8 +63,8 @@ function Pesquisa() {
                 type="text"
                 placeholder="O livro que eu quero é..."
                 onInput={(event => {
-                    let searchParam = event.target.value
-                    let searchResult = livros.filter(livro => livro.titulo.includes(searchParam))
+                    let searchParam = event.target.value.toLowerCase()
+                    let searchResult = livros.filter(livro => livro.titulo.toLowerCase().includes(searchParam))
                     if(!event.target.value) searchResult = []
                     setSearchedBooks(searchResult)
                 })}
