@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/buchhandlung/static/js/main.6b3fe199.chunk.js",
-    "main.js.map": "/buchhandlung/static/js/main.6b3fe199.chunk.js.map",
+    "main.js": "/buchhandlung/static/js/main.91a2e2e6.chunk.js",
+    "main.js.map": "/buchhandlung/static/js/main.91a2e2e6.chunk.js.map",
     "runtime~main.js": "/buchhandlung/static/js/runtime~main.c99a2590.js",
     "runtime~main.js.map": "/buchhandlung/static/js/runtime~main.c99a2590.js.map",
     "static/js/2.573f3d7a.chunk.js": "/buchhandlung/static/js/2.573f3d7a.chunk.js",
@@ -9,7 +9,7 @@
     "static/js/3.0e4cdb98.chunk.js": "/buchhandlung/static/js/3.0e4cdb98.chunk.js",
     "static/js/3.0e4cdb98.chunk.js.map": "/buchhandlung/static/js/3.0e4cdb98.chunk.js.map",
     "index.html": "/buchhandlung/index.html",
-    "precache-manifest.fc35015bee2af40572a50987194bbde0.js": "/buchhandlung/precache-manifest.fc35015bee2af40572a50987194bbde0.js",
+    "precache-manifest.48524afac2c7adac9185a15ea3c5e0ad.js": "/buchhandlung/precache-manifest.48524afac2c7adac9185a15ea3c5e0ad.js",
     "service-worker.js": "/buchhandlung/service-worker.js",
     "static/media/lancamento1.jpg": "/buchhandlung/static/media/lancamento1.909d0dfd.jpg",
     "static/media/lancamento2.jpg": "/buchhandlung/static/media/lancamento2.3835c529.jpg",
